@@ -1,0 +1,29 @@
+{
+  "name": "getting_started_web",
+  "version": "1.0.0",
+  "description": "guide to getting started with web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschrei1/gettingStartedWeb.git"
+  },
+  "keywords": [
+    "beginner",
+    "web",
+    "development",
+    "guide"
+  ],
+  "author": "Ben Schreiber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bschrei1/gettingStartedWeb/issues"
+  },
+  "homepage": "https://github.com/bschrei1/gettingStartedWeb#readme",
+  "dependencies": {
+    "hapi": "^16.0.2",
+    "inert": "^4.0.3"
+  }
+}
