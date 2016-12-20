@@ -15,7 +15,7 @@ server.register(require('inert'), (err) => {
 
     server.route({
         method: 'GET',
-        path: '/hello',
+        path: '/',
         handler: function (request, reply) {
             reply.file('./index.html');
         }
