@@ -1,0 +1,23 @@
+#container{
+        height:500px;
+        width:500px;
+        background-color: bisque;
+        display:flex;
+        flex-direction:column;
+    
+}
+#button, #toggler {
+        height:100px;
+        width:100px;
+        border-radius: 5px;
+        background-color: aqua;
+        margin:50px;
+    }
+.hidden{
+         height:100px;
+        width:100px;
+        border-radius: 5px;
+        background-color: green;
+        display:None
+        
+}

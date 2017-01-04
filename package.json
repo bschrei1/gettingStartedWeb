@@ -22,13 +22,13 @@
   "bugs": {
     "url": "https://github.com/bschrei1/gettingStartedWeb/issues"
   },
-  "homepage":      "https://github.com/bschrei1/gettingStartedWeb#readme",
+  "homepage": "https://github.com/bschrei1/gettingStartedWeb#readme",
   "engines": {
     "node": "4.1.1"
   },
-  
   "dependencies": {
     "hapi": "^16.0.2",
-    "inert": "^4.0.3"
+    "inert": "^4.0.3",
+    "jquery": "^3.1.1"
   }
 }

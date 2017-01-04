@@ -1,20 +1,22 @@
+<!DOCTYPE html>
 <html>
-    
 	<head>
-        <style>
-            div {
-                height:500px;
-                width:300px;
-                border-radius: 5px;
-                background-color: aqua
-            }
-        </style>
-	</head>
+        <link href="./styles.css" rel="stylesheet" type="text/css"/>
+        <script src="./node_modules/jquery-3.1.1.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="index.js"></script>
+        <!--why wont it read the native jquery? why wont localhost read other files? -->
+    </head>
     
 	<body>
-        <div>
-		  <p>Hello this is index.html</p>
+        <div id="container">
+            <div id="button">
+              <p>This button toggles the one below</p>
+            </div>
+            <div id="toggler">
+              <p>another div</p>
+            </div>
         </div>
 	</body>
-    
 </html>
