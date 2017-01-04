@@ -15,10 +15,19 @@ server.register(require('inert'), (err) => {
 
     server.route({
         method: 'GET',
-        path: '/',
+        path: '/hello',
         handler: function (request, reply) {
 //            reply.file('./index.html');
             reply("hello dude");
+        }
+    });
+    
+    server.route({
+        method: 'GET',
+        path: '/',
+        handler: function (request, reply) {
+//            reply.file('./index.html');
+            reply.file("./index.html");
         }
     });
 });
