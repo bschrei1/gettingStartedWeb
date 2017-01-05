@@ -25,10 +25,27 @@ server.register(require('inert'), (err) => {
     server.route({
         method: 'GET',
         path: '/',
-        handler: function (request, reply) {
-            reply.file('./index.html');
-            //reply("hello dude");
+        handler:{
+            file: Path.join(__dirname, 'public/index.html')
         }
+    });
+    
+    server.route({
+        method: 'GET',
+        path: '/scripts/{filename}',
+        handler:{
+            directory:
+                {
+                    path: 
+                    Path.join(__dirname, 'scripts')
+                }
+        }
+    });
+    
+    server.route({
+        method:'GET',
+        path:'/styles/{filename}',
+        handler:{directory:{path: Path.join(__dirname, 'styles')}}
     });
     
    /*server.route({
@@ -58,10 +75,8 @@ server.register(require('inert'), (err) => {
     });
     server.route({
         method: 'GET',
-        path: '/node_modules/jquery-3.1.1.min.js',
-        handler: {
-            file: './node_modules/jquery-3.1.1.min.js'
-        }
+        path: '/node_modules/{filename}',
+        handler:{directory:{path: Path.join(__dirname, 'node_modules/')}}
     });
     
     /*server.route({
