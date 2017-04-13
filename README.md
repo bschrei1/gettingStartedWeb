@@ -13,7 +13,7 @@ could eventually be hosted on the cloud and available to the public!
 
 <h2> First Steps after you've cloned the repo </h2>
   <ol>
-    <li>Install Node if you don't have it already </li>
+    <li>Install Node and npm if you don't have them already </li>
     <li>On your command line run <code>npm install -s</code>to install all of the dependencies locally</li>
     <li>Run <code>npm start</code> to start up the server </li>
     <li>Go to <code>localhost:8000</code> in your browser </li>
