@@ -1,7 +1,8 @@
 # gettingStartedWeb
 
 A web server for getting started with Hapi.js and jQuery. 
-No prior background in web development is needed, but some will help.
+This is meant for someone who has a little bit of experience in web development, but has never built an app from
+front end interface to backend server.
 This takes you through how to serve up a web page from a server, with a basic web stack of html, css, and jQuery
 on the frontend with node.js on the backend (Hapi.js is a node framework for making websites and APIs).
 
